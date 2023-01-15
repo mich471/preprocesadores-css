@@ -1,0 +1,28 @@
+extend components/plantilla.pug
+block contenido
+    block contenido
+          section.menu
+            .menu__lista
+                 
+                ul
+                    h2 #{titulos[1]}
+ 
+                    each enlace in enlaces 
+                        li=enlace
+            .menu__contenido
+                h2 #{titulos[0]}
+                p
+                    | Lorem ipsum dolor sit amet consectetur,
+                    | adipisicing elit. Placeat voluptate 
+                    | fugit hic expedita mollitia enim iusto?
+                    | Facilis molestiae culpa ab, nostrum vero 
+                    | dolore esse eveniet sequi quas impedit nobis 
+                    | accusantium?
+                    span
+                        |Proin set urna quis orci interdum rutund, 
+                        |integer rhuncus finihus nuncn, ac portitor 
+                        |ex dapibus ac.
+                            
+                a.boton leer mas
+
+            

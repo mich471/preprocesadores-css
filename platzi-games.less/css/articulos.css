@@ -1,0 +1,9 @@
+.artculo--principal {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.artculo--principal h2 {
+  margin: 40px 0 40px 0;
+  font-size: 50px;
+  text-align: center;
+}
